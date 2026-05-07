@@ -1,26 +1,73 @@
-      <!-- 1. Пользователь вводит название команды → нажимает "Найти"
-      2. Показываешь список найденных команд с логотипами
-      3. Пользователь кликает — команда выбрана
-      4. То же самое для второй команды
-      5. Кнопка "Рассчитать" - fetchMatchData - winProcent
-      6. Показываешь результат -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
+
 <head>
   <meta charset="UTF-8">
-  <title>Real Madrid</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Analytics</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>info</h1>
+  <!-- йфывфывфы -->
 
-<input type="text" id="teamInput" placeholder="team">
-<button onclick="searchTeam()">searxh</button>
+<div class="container">
 
-<div id="result"></div>
+  <h1>Football Analytics</h1>
 
+  <div class="teams-section">
 
-<script src="scripts/getData.js"></script>
+    <!-- TEAM 1 -->
+    <div class="team-box">
+
+      <h2>Komanda 1</h2>
+
+      <input
+        type="text"
+        id="team1Input"
+        placeholder="Ievadi komandu"
+      >
+
+      <button id="searchTeam1Btn">
+        Meklēt
+      </button>
+
+      <div id="team1Results"></div>
+
+    </div>
+
+    <!-- TEAM 2 -->
+    <div class="team-box">
+
+      <h2>Komanda 2</h2>
+
+      <input
+        type="text"
+        id="team2Input"
+        placeholder="Ievadi komandu"
+      >
+
+      <button id="searchTeam2Btn">
+        Meklēt
+      </button>
+
+      <div id="team2Results"></div>
+
+    </div>
+
+  </div>
+
+  <button id="calculateBtn">
+    Aprēķināt
+  </button>
+
+  <div id="result"></div>
+
+</div>
+
+<script type="module" src="scripts/main.js"></script>
+
 </body>
 </html>
