@@ -35,4 +35,4 @@ Futbola Analītikis projekts ir klienta puses tīmekļa lietojumprogramma, kas i
 - [Cloudflare Workers](https://developers.cloudflare.com/workers/) – Lai saprastu API starpnieka iestatīšanu.
 
 ## Autori
-2026: 
+2026: 1, 7, 19
