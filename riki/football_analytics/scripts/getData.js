@@ -1,7 +1,7 @@
 // cloudflare worker url
 const WORKER_URL = "https://futbiknn.vin0gr398.workers.dev/";
 
-// запрос
+// запрос 
 async function apiRequest (endpoint ) {
   const res = await fetch(WORKER_URL + endpoint);
   if (!res.ok) throw new Error("kļūda: " + res.status);

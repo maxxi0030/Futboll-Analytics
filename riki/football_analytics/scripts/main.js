@@ -174,7 +174,7 @@ document
     const resultDiv =
       document.getElementById("result");
 
-    resultDiv.innerHTML = "Loading...";
+    resultDiv.innerHTML = "Loading... 67%";
 
     try {
 
